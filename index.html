@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <head>
+      <link rel="stylesheet" href="mystyle.css">
+      <script src = "myscript.js"> </script>
+      <title>Random Password Generator</title>
+   </head>
+   <body>
+    <video id="background-video" autoplay loop muted >
+      <source src="bgvideo2.mp4" type="video/mp4">
+    </video>
+         <div class="box">
+            <h2><u>Random Password Generator</u></h2>
+            <input id="input-box" type="text" name="password" placeholder="Create password"  >
+            <table>
+               <th><button id="button"  onclick="genPassword()"><b>Generate</b></button></th>
+               <th><button id="button"  onclick="copyPassword()"><b>Copy</b></button></th>
+               <th><button id="button"  onclick="resett()"><b>Reset</b></button></th>
+            </table>
+         </div>
+   </body>
+</html>
